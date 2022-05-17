@@ -86,3 +86,21 @@ p {
     color: #292929;
     text-align: center;
 }
+
+.container1 {
+    margin: 0;
+    background: #F2F2F2;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 146px cover;
+    gap: 20vh;
+}
+
+.container2 {
+    margin: 0;
+    background: #C7C7C7;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 146px cover;
+    gap: 20vh;
+}
