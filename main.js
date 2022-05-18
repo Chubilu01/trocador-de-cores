@@ -5,10 +5,7 @@ let clickNumber = 0;
 const mouseClick = () => {
     document.body.style.backgroundColor = background[clickNumber];
     document.querySelector('.hex-code').innerHTML = text[clickNumber];
-    clickNumber++;
-    if (clickNumber == 3) {
-        clickNumber = 0;
-    }
+    clickNumber == 2 ? clickNumber = 0 : clickNumber++;
 }
 
 mouseClick();
